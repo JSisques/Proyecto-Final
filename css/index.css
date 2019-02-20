@@ -1,7 +1,44 @@
 body{
-    background-color: green;
+    background-color: white;
+    margin: 0px;
 }
 
+/* Seccion header */
+
+header {
+    border: 1px black solid;
+    background-color: red;
+    height: 70px;
+    width: 100%;
+}
+
+.menuHeader {
+    color: black;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 10px;
+
+}
+/*
+.tituloHeader {
+    color: white;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.campusHeader {
+    text-align: right;
+    margin-top: -26px;
+}
+
+.logoHeader {
+    float: right;
+    margin-top: -87px;
+    margin-right: 35px;
+}
+*/
 /* Seccion index */
 
 /* Seccion como llegar  */
@@ -15,6 +52,20 @@ body{
 /* Seccion quienes somos */
 
 /* Seccion instalaciones */
+
+.generalInstalacion{
+  width: 100%;
+  margin: auto;
+}
+.fotografia{
+  width: 300px;
+  height: 250px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
 
 /* Seccion formulario de registro */
 
