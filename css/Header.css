@@ -1,0 +1,35 @@
+body {}
+
+/*header 
+de plantilla
+*/
+header {
+    border: 1px red solid;
+    background-color: red;
+    height: 70px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.menu {
+    color: white;
+    margin-left: 15px;
+}
+
+h1 {
+    color: white;
+    margin-top: -50px;
+    text-align: center;
+}
+
+h4 {
+    text-align: right;
+    margin-top: -26px;
+}
+
+img {
+    float: right;
+    margin-top: -87px;
+    margin-right: 35px;
+}
