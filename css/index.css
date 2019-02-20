@@ -10,6 +10,8 @@ header {
     background-color: red;
     height: 70px;
     width: 100%;
+    text-align: center;
+    align-items: center;
 }
 
 .menuHeader {
@@ -18,21 +20,19 @@ header {
     height: 50px;
     border: 2px solid black;
     float: left;
-    margin-left: 10px;
-
+    position: absolute;
 }
-/*
+
 .tituloHeader {
     color: white;
-    margin-top: -50px;
-    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
 }
 
 .campusHeader {
-    text-align: right;
-    margin-top: -26px;
 }
-
+/*
 .logoHeader {
     float: right;
     margin-top: -87px;
