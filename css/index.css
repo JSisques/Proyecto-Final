@@ -67,6 +67,11 @@ header {
   margin-bottom: 20px;
 }
 
+.fotografia:hover{
+  width: 320px;
+  height: 270px;
+}
+
 /* Seccion formulario de registro */
 
 /* Seccion registro de talleres */
