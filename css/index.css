@@ -43,7 +43,6 @@ header {
 
 /* Seccion como llegar  */
 
-
 /* Seccion menu */
 
 /* Seccion patrocinadores */
@@ -87,6 +86,7 @@ footer{
   height:50px;
 }
 .tituloLogo{
+  padding-left: 170px;
   margin-right: auto;
   display: inline-block;
 }
@@ -94,6 +94,7 @@ footer{
   width:35px;
   height:35px;
   margin-top: 7px;
+  padding-right: 10px;
   float: center;
 }
 .textofooter{
@@ -104,6 +105,7 @@ footer{
   float: right;
   margin-right: auto;
   margin-top: 7px;
+  padding-right: 20px;
 }
 .cuadrarimgfooter{
   padding: 8px;
