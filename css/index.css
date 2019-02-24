@@ -42,7 +42,24 @@ header {
 /* Seccion index */
 
 /* Seccion como llegar  */
-
+.comollegaraa{
+  text-align: center;
+}
+.direccion{
+  font-weight: bold;
+  font-size: 18px;
+}
+.centrrarHR{
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.mapacomollegar{
+  width: 500px;
+  height:400px;
+}
+.separarimg{
+  height: 10px;
+}
 /* Seccion menu */
 
 /* Seccion patrocinadores */
