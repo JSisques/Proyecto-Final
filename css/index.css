@@ -81,6 +81,41 @@ header {
   border: 2px solid black;
   border-radius: 50%;
 }
+.indexIcono.superiorIzquierda{
+  vertical-align: bottom;
+  text-align: right;
+}
+
+.indexIcono.Izquierda{
+  text-align: right;
+}
+
+.indexIcono.inferiorIzquierda{
+  vertical-align: baseline;
+  text-align: right;
+}
+
+.indexIcono.inferior{
+
+}
+
+.indexIcono.inferiorDerecha{
+  vertical-align: baseline;
+  text-align: left;
+}
+
+.indexIcono.derecha{
+  text-align: left;
+}
+
+.indexIcono.superiorDerecha{
+  vertical-align: bottom;
+  text-align: left;
+}
+
+.indexIcono.superior{
+}
+
 /*
 .indexIconosRedondos:hover{
   width: 100px;
