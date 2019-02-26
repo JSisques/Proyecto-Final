@@ -154,6 +154,13 @@ header {
 
 /* Seccion servicios */
 
+.serviciosCompleto{
+  width: 100%;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 1%;
+}
+
 .servicios {
     color: aliceblue;
     font-weight: bold;
@@ -162,9 +169,10 @@ header {
     border: 2px solid black;
     border-radius: 5px;
     display: inline-block;
-    margin-left: 55px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
     text-align: center;
 }
 
