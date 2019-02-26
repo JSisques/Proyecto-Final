@@ -74,7 +74,6 @@ header {
   margin-left: 50px;
   display: table-cell;
   text-align: center;
-  vertical-align: middle;
 }
 
 .indexIcono.logo{
@@ -92,25 +91,26 @@ header {
 
 .indexIcono.Izquierda{
   text-align: right;
+  vertical-align: middle;
 }
 
 .indexIcono.inferiorIzquierda{
-  vertical-align: baseline;
+  vertical-align: top;
   text-align: right;
 }
 
 .indexIcono.inferior{
-
-
+  padding-top: 4em;
 }
 
 .indexIcono.inferiorDerecha{
-  vertical-align: baseline;
+  vertical-align: top;
   text-align: left;
 }
 
 .indexIcono.derecha{
   text-align: left;
+  vertical-align: middle;
 }
 
 .indexIcono.superiorDerecha{
@@ -119,6 +119,7 @@ header {
 }
 
 .indexIcono.superior{
+  padding-top: 6em;
 }
 
 /*
