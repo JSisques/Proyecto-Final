@@ -53,19 +53,31 @@ header {
 /* Seccion index */
 
 .circulosMenu{
+  width: 45.4em;
+  height: 45.4em;
+/*  border: 2px solid black; */
+  border-radius: 50%;
+  margin: auto;
+/*  background-color: red; */
+  position: relative;
+}
+
+.indexLineaHorizontal{
   width: 100%;
-  height: 50%;
-  border: 2px solid black;
-  border-radius: 50%;
+  height: 15.13em;
+  display: table;
 }
 
-.indexLogo{
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
+.indexIcono{
+  margin-top: 2em;
+  z-index: 1;
+  margin-left: 50px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.logoPrincipal{
+.indexIconosRedondos{
   border: 2px solid black;
   border-radius: 50%;
 }
