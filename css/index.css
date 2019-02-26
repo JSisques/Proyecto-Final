@@ -1,4 +1,4 @@
-body{
+body {
     background-color: white;
     margin: 0px;
 }
@@ -6,69 +6,76 @@ body{
 /* Seccion header */
 
 header {
-  background-color: red;
-  height: 5%;
-  width: 100%;
-  display: table;
+    background-color: red;
+    height: 5%;
+    width: 100%;
+    display: table;
 }
-.headerCentrado{
-  width: 95%;
-  /*border: 2px solid black;*/
-  margin: auto;
-  margin-top: 1%;
+
+.headerCentrado {
+    width: 95%;
+    /*border: 2px solid black;*/
+    margin: auto;
+    margin-top: 1%;
 }
+
 .menuHeader {
-  color: black;
-  width: 5%;
-  height: 5%;
-  /*border: 2px solid black;*/
-  display: table-cell;
-  vertical-align: middle;
-  position: relative;
+    color: black;
+    width: 5%;
+    height: 5%;
+    /*border: 2px solid black;*/
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
 }
 
 .tituloHeader {
-  color: white;
-  /*border: 1px solid black;*/
-  width: 80%;
-  height: 100%;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  position:inherit;
+    color: white;
+    /*border: 1px solid black;*/
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    position: inherit;
 
 }
 
 .logoHeader {
-  width: 9%;
-  /*border: 2px solid black;*/
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell;
+    width: 9%;
+    /*border: 2px solid black;*/
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
 }
 
 
 /* Seccion index */
 
 /* Seccion como llegar  */
-.comollegaraa{
-  text-align: center;
+.comollegaraa {
+    text-align: center;
 }
-.direccion{
-  font-weight: bold;
-  font-size: 18px;
+
+.direccion {
+    font-weight: bold;
+    font-size: 18px;
 }
-.centrrarHR{
-  margin-left: 35%;
-  margin-right: 35%;
+
+.centrrarHR {
+    margin-left: 35%;
+    margin-right: 35%;
 }
-.mapacomollegar{
-  width: 500px;
-  height:400px;
+
+.mapacomollegar {
+    width: 500px;
+    height: 400px;
 }
-.separarimg{
-  height: 10px;
+
+.separarimg {
+    height: 10px;
 }
+
 /* Seccion menu */
 
 /* Seccion patrocinadores */
@@ -79,24 +86,25 @@ header {
 
 /* Seccion instalaciones */
 
-.generalInstalacion{
-  width: 100%;
-  margin: auto;
-}
-.fotografia{
-  width: 300px;
-  height: 250px;
-  border: 2px solid black;
-  border-radius: 10px;
-  display: inline-block;
-  margin-left: 40px;
-  margin-top: 50px;
-  margin-bottom: 20px;
+.generalInstalacion {
+    width: 100%;
+    margin: auto;
 }
 
-.fotografia:hover{
-  width: 320px;
-  height: 270px;
+.fotografia {
+    width: 300px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.fotografia:hover {
+    width: 320px;
+    height: 270px;
 }
 
 /* Seccion formulario de registro */
@@ -105,37 +113,65 @@ header {
 
 /* Seccion servicios */
 
+.servicios {
+    color: aliceblue;
+    font-weight: bold;
+    width: 370px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.servicioheader {
+    background-color: red;
+    padding: 7px;
+    width: auto;
+    margin: auto;
+}
+
+/*fin de Servicios*/
+
 /* Seccion footer */
-footer{
-  background:red;
-  color:white;
-  text-align: center;
-  height:50px;
+footer {
+    background: red;
+    color: white;
+    text-align: center;
+    height: 50px;
 }
-.tituloLogo{
-  padding-left: 170px;
-  margin-right: auto;
-  display: inline-block;
+
+.tituloLogo {
+    padding-left: 170px;
+    margin-right: auto;
+    display: inline-block;
 }
-.uemlogofooter{
-  width:35px;
-  height:35px;
-  margin-top: 7px;
-  padding-right: 10px;
-  float: center;
+
+.uemlogofooter {
+    width: 35px;
+    height: 35px;
+    margin-top: 7px;
+    padding-right: 10px;
+    float: center;
 }
-.textofooter{
-  float: right;
-  margin-top: -5px;
+
+.textofooter {
+    float: right;
+    margin-top: -5px;
 }
-.redessociales{
-  float: right;
-  margin-right: auto;
-  margin-top: 7px;
-  padding-right: 20px;
+
+.redessociales {
+    float: right;
+    margin-right: auto;
+    margin-top: 7px;
+    padding-right: 20px;
 }
-.cuadrarimgfooter{
-  padding: 8px;
-  width:22px;
-  height:22px;
+
+.cuadrarimgfooter {
+    padding: 8px;
+    width: 22px;
+    height: 22px;
 }
