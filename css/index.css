@@ -77,6 +77,10 @@ header {
   vertical-align: middle;
 }
 
+.indexIcono.logo{
+  width: 350px;
+}
+
 .indexIconosRedondos{
   border: 2px solid black;
   border-radius: 50%;
@@ -96,6 +100,7 @@ header {
 }
 
 .indexIcono.inferior{
+
 
 }
 
