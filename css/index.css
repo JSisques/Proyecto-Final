@@ -50,7 +50,12 @@ header {
 
 /* Seccion index */
 
+.indexLogo{
+  border-radius: 50%;
+}
+
 /* Seccion como llegar  */
+
 .comollegaraa{
   text-align: center;
 }
