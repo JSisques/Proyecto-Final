@@ -6,37 +6,52 @@ body{
 /* Seccion header */
 
 header {
-    border: 1px black solid;
-    background-color: red;
-    height: 70px;
-    width: 100%;
-    text-align: center;
-    align-items: center;
+  background-color: red;
+  height: 5%;
+  width: 100%;
+}
+
+.headerCentrado{
+  width: 95%;
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+  padding: 0%;
 }
 
 .menuHeader {
-    color: black;
-    width: 50px;
-    height: 50px;
-    border: 2px solid black;
-    float: left;
-    position: absolute;
+  color: black;
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  float: left;
 }
 
 .tituloHeader {
-    color: white;
-    border: 1px solid black;
-    width: 50%;
-    margin: auto;
+  color: white;
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+  margin-top: 0%;
+  display: inline-block;
+
 }
 
-.campusHeader {
+.logoHeader {
+    width: 10%;
+    height: auto;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    float: right;
 }
 /*
-.logoHeader {
-    float: right;
-    margin-top: -87px;
-    margin-right: 35px;
+.campusHeader {
+  border: 2px solid black;
+  width: 15%;
+  float: right;
 }
 */
 /* Seccion index */
@@ -78,6 +93,7 @@ header {
   width: 300px;
   height: 250px;
   border: 2px solid black;
+  border-radius: 10px;
   display: inline-block;
   margin-left: 40px;
   margin-top: 50px;
