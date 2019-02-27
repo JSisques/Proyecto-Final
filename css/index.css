@@ -88,6 +88,7 @@ header {
 
 .indexIconosRedondos:hover{
   box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.5), -2.5px -2.5px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.2, 1.2);
 }
 
 .indexIcono.superiorIzquierda{
@@ -290,19 +291,20 @@ header {
 }
 
 .fotografia {
-    width: 300px;
-    height: 250px;
-    border: 2px solid black;
-    border-radius: 10px;
-    display: inline-block;
-    margin-left: 40px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+  width: 300px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  transition: transform 1s;
 }
 
 .fotografia:hover {
-    width: 320px;
-    height: 270px;
+  transform: scale(1.2, 1.2);
+
 }
 
 /* Seccion formulario de registro */
@@ -317,7 +319,7 @@ header {
 }
 
 .testimoniosTitulo{
-  
+
 }
 
 .testimoniosParrafo{
