@@ -83,7 +83,13 @@ header {
 .indexIconosRedondos{
   border: 2px solid black;
   border-radius: 50%;
+  /*box-shadow: 2.5px 5px rgba(0, 0, 0, 0.3);*/
 }
+
+.indexIconosRedondos:hover{
+  box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.5), -2.5px -2.5px 10px rgba(0, 0, 0, 0.5);
+}
+
 .indexIcono.superiorIzquierda{
   vertical-align: bottom;
   text-align: right;
