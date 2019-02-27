@@ -1,12 +1,15 @@
+/* Color principal #e31a1a */
+
 body {
     background-color: white;
     margin: 0px;
+    padding: 0px;
 }
 
 /* Seccion header */
 
 header {
-    background-color: red;
+    background-color: #e31a1a;
     width: 100%;
     height: 5em;
     display: inline-block;
@@ -164,21 +167,23 @@ header {
 /* Seccion menu */
 
 nav{
+  width: 15em;
+  text-align: center;
 }
 
 nav li a{
-  background-color: white;
-  color: whitesmoke;
+  background-color: darkred;
+  color: white;
   text-decoration: none;
   padding: 10px 5px;
   display: block;
   transition: background-color 1s, color 1s, width 2s;
+
 }
 
 nav li a:hover{
-  background-color: darkred;
-  color: white;
-  width: 15em;
+  background-color: white;
+  color: darkred;
 }
 
 .navul{
@@ -392,10 +397,9 @@ nav li a:hover{
 
 /* Seccion footer */
 footer {
-    background: red;
+    background: #e31a1a;
     color: white;
     text-align: center;
-
     height: 50px;
 }
 
