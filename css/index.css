@@ -11,14 +11,7 @@ header {
     height: 5em;
     display: inline-block;
 }
-/*
-.headerCentrado {
-    width: 95%;
-    border: 2px solid black;
-    margin: auto;
-    margin-top: 1%;
-}
-*/
+
 .menuHeader {
     color: black;
     width: 75px;
