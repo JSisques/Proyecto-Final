@@ -84,6 +84,7 @@ header {
   border: 2px solid black;
   border-radius: 50%;
   /*box-shadow: 2.5px 5px rgba(0, 0, 0, 0.3);*/
+  transition: transform 0.5s;
 }
 
 .indexIconosRedondos:hover{
