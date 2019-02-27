@@ -309,6 +309,28 @@ header {
 
 /* Seccion registro de talleres */
 
+/* Seccion testimonios */
+
+.testimoniosGeneral{
+  width: 70%;
+  margin: auto;
+}
+
+.testimoniosTitulo{
+  
+}
+
+.testimoniosParrafo{
+
+}
+
+.testimoniosNombre{
+
+}
+
+.testimoniosOrganizacion{
+
+}
 /* Seccion servicios */
 
 .serviciosCompleto{
@@ -339,8 +361,6 @@ header {
     width: auto;
     margin: auto;
 }
-
-/*fin de Servicios*/
 
 /* Seccion footer */
 footer {
