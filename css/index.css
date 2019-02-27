@@ -316,24 +316,27 @@ header {
 
 .testimoniosGeneral{
   width: 70%;
-  margin: auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .testimoniosTitulo{
-
+  text-align: left;
 }
 
 .testimoniosParrafo{
-
+  text-align: justify;
 }
 
 .testimoniosNombre{
-
+  text-align: right;
 }
 
 .testimoniosOrganizacion{
-
+  text-align: right;
 }
+
 /* Seccion servicios */
 
 .serviciosCompleto{
