@@ -401,6 +401,10 @@ footer {
     color: white;
     text-align: center;
     height: 50px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+
 }
 
 .tituloLogo {
