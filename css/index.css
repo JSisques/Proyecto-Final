@@ -198,19 +198,21 @@ nav li a:hover{
 /* Seccion patrocinadores */
 
 .patroHr{
-  width: 100px;
+  width: 60px;
 }
 
 .patroTexto1{
+  text-align: center;
   margin-left:auto;
   margin-right: auto;
-  width: 220px;
+  width: 25%;
   height: 80px;
 }
 .patroTexto2{
+  text-align: center;
   margin-right: auto;
   margin-left:auto;
-  width: 260px;
+  width: 30%;
   height: 80px;
 }
 
@@ -239,8 +241,8 @@ nav li a:hover{
 
 .patrocinioPrincipaltres{
   margin-right: 2%;
-  height: 130px;
-  width: 400px;
+  height: 112px;
+  width: 412px;
   display: inline-block;
 
 }
