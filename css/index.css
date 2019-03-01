@@ -90,6 +90,10 @@ header {
   transition: transform 0.5s, box-shadow 0.2s;
 }
 
+.indexIconosRedondos.logo{
+  border: 2px none black;
+}
+
 .indexIconosRedondos:hover{
   box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.5), -2.5px -2.5px 10px rgba(0, 0, 0, 0.5);
   transform: scale(1.2, 1.2);
