@@ -313,8 +313,10 @@ nav li a:hover{
 /* Seccion instalaciones */
 
 .generalInstalacion {
-    width: 100%;
+    width: 95%;
     margin: auto;
+    /*border: 1px solid black;*/
+    text-align: center;
 }
 
 .fotografia {
@@ -323,9 +325,7 @@ nav li a:hover{
   border: 2px solid black;
   border-radius: 10px;
   display: inline-block;
-  margin-left: 40px;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin: 2em 1em;
   transition: transform 1s;
 }
 
