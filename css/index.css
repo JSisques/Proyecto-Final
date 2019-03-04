@@ -252,7 +252,7 @@ nav li a:hover{
   height:300px;
 
   margin-left:auto;
-  margin-right: auto;
+  margin-right:auto;
 
 }
 
@@ -292,6 +292,47 @@ nav li a:hover{
 }
 
 /* Seccion programa del evento */
+.ProgramEventGeneral{
+  width: 28%;
+  height: 425px;
+  margin-left: 2%;
+  color: aliceblue;
+  font-weight: bold;
+  border:1px hide black;
+}
+
+.dos{
+  width: 95%;
+  height: 290px;
+  border:1px hide black;
+}
+.ProgramaEvent{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  border:2px solid black;
+  margin-top: 5%;
+}
+
+
+.TRES{
+  margin-top: 1.5%;
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+}
+
+.segundoDivAbajo{
+  margin-left: 3%;
+}
+
+.ProgramaEvent p{
+    padding: 7px;
+    width: auto;
+    margin: auto;
+    background-color: red;
+    text-align: center;
+}
 
 /* Seccion quienes somos */
 .textosomos{
