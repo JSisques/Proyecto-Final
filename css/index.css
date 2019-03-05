@@ -361,14 +361,17 @@ nav li a:hover{
 .arribaretall{
   width: 400px;
   height: 30px;
+  color: aliceblue;
   border: 1px solid black;
   background: #e31a1a;
   font-weight: bold;
+  border-radius: 5px 5px 0px 0px;
 }
 .abajoretall{
   width: 400px;
   height: 80px;
   border: 1px solid black;
+   border-radius:0px 0px 5px 5px;
 }
 .cuadrarcajasretall{
   float: left;
