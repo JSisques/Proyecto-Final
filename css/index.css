@@ -148,6 +148,7 @@ header {
 
 .comollegaraa {
     text-align: center;
+    margin: 3em 3em;
 }
 
 .direccion {
@@ -491,7 +492,7 @@ footer {
     height: 50px;
     bottom: 0;
     width: 100%;
-    position: fixed;
+    position: relative;
 
 }
 
