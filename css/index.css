@@ -441,9 +441,7 @@ nav li a:hover{
 
 .testimoniosGeneral{
   width: 70%;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 4% auto;
 }
 
 .testimoniosTitulo{
