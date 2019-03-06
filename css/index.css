@@ -218,7 +218,7 @@ nav li a:hover{
 }
 
 .patrocinioPrincipal{
-  width:98%;
+  width:99%;
   padding-bottom: 5%;
   margin-left:auto;
   margin-right: auto;
@@ -227,7 +227,6 @@ nav li a:hover{
 
 
 .patrocinioPrincipaluno{
-  height: 90%;
   width: 30%;
   display: inline-block;
 }
@@ -237,24 +236,24 @@ nav li a:hover{
   height: 100%
 }
 
-.patrocinioPrincipaldos{
-  margin-left: 2%;
-  margin-right: 2%;
+.patrocinioPrincipaldos{;
   width: 30%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
   display: inline-block;
 }
 
 .patrocinioPrincipaltres{
-  width: 35%;
+  width: 30%;
   display: inline-block;
 }
 
 .patrociniocol2{
-  width: 70%;
+  width: 55%;
   padding-bottom: 4%;
   margin-left:auto;
   margin-right:auto;
-  border:1px solid black;
+
 
 }
 
@@ -265,6 +264,7 @@ nav li a:hover{
 }
 
 .faze{
+
   width:25%;
 
 }
