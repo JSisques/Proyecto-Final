@@ -20,6 +20,104 @@ header {
     display: inline-block;
 }
 
+@media only screen and (max-width: 600px) {
+  .menuHeader {
+      color: black;
+      width: 75px;
+      height: 75px;
+      /*border: 2px solid black;*/
+      vertical-align: middle;
+      position: absolute;
+      z-index: 2;
+      float: left;
+  }
+
+  .tituloHeader {
+      color: white;
+      /*border: 1px solid black;*/
+      width: 100%;
+      height: auto;
+      text-align: center;
+      position: absolute;
+      z-index: 1;
+      vertical-align: middle;
+
+  }
+
+  .tituloHeader {
+      color: white;
+      /*border: 1px solid black;*/
+      width: 100%;
+      height: auto;
+      text-align: center;
+      position: absolute;
+      z-index: 1;
+      vertical-align: middle;
+
+  }
+
+  .logoHeader {
+      width: 20%;
+      text-align: center;
+      float: right;
+
+  }
+
+  #headerLogoDerecha{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .menuHeader {
+      color: black;
+      width: 75px;
+      height: 75px;
+      /*border: 2px solid black;*/
+      vertical-align: middle;
+      position: absolute;
+      z-index: 2;
+      float: left;
+  }
+
+  .tituloHeader {
+      color: white;
+      /*border: 1px solid black;*/
+      width: 100%;
+      height: auto;
+      text-align: center;
+      position: absolute;
+      z-index: 1;
+      vertical-align: middle;
+
+  }
+
+  .tituloHeader {
+      color: white;
+      /*border: 1px solid black;*/
+      width: 100%;
+      height: auto;
+      text-align: center;
+      position: absolute;
+      z-index: 1;
+      vertical-align: middle;
+
+  }
+
+  .logoHeader {
+      width: 20%;
+      text-align: center;
+      float: right;
+
+  }
+
+  #headerLogoDerecha{
+    display: none;
+  }
+
+}
+
 .menuHeader {
     color: black;
     width: 75px;
