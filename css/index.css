@@ -499,8 +499,13 @@ footer {
     height: 50%;
     bottom: 0;
     width: 100%;
-    position: relative;
+}
 
+@media only screen and (max-width: 800px){
+   footer{
+    background: yellow;
+   }
+   
 }
 
 .tituloLogo {
