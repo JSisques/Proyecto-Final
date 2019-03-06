@@ -1,5 +1,9 @@
 /* Color principal #e31a1a */
-
+/*
+* {
+ box-sizing: border-box;
+}
+*/
 body {
     background-color: #F6F3EE;
     margin: 0px;
@@ -41,20 +45,24 @@ header {
 
 .logoHeader {
     width: 20%;
-    height: 5em;
-    /*border: 2px solid black;*/
     text-align: center;
     float: right;
 
 }
 
+<<<<<<< HEAD
 #headerLogoDerecha {
     margin-top: 1em;
     margin-bottom: 0.5em;
+=======
+#headerLogoDerecha{
+  margin: 0% auto;
+>>>>>>> e8fae503a85f1e6538b30698b7b94c5953c9b5a6
 }
 
 /* Seccion index */
 
+<<<<<<< HEAD
 .circulosMenu {
     width: 45.4em;
     height: 45.4em;
@@ -63,6 +71,29 @@ header {
     margin: auto;
     /*  background-color: red; */
     position: relative;
+=======
+.indexVideo{
+  position: absolute;
+  z-index: -1000;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+  bottom: 0px;
+  right: 0px;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.circulosMenu{
+  width: 45.4em;
+  height: 45.4em;
+/*  border: 2px solid black; */
+  border-radius: 50%;
+  margin: auto;
+/*  background-color: red; */
+  position: relative;
+>>>>>>> e8fae503a85f1e6538b30698b7b94c5953c9b5a6
 }
 
 .indexLineaHorizontal {
@@ -83,11 +114,20 @@ header {
     width: 350px;
 }
 
+<<<<<<< HEAD
 .indexIconosRedondos {
     border: 2px solid black;
     border-radius: 50%;
     /*box-shadow: 2.5px 5px rgba(0, 0, 0, 0.3);*/
     transition: transform 0.5s, box-shadow 0.2s;
+=======
+.indexIconosRedondos{
+  background-color: #F6F3EE;
+  border: 2px solid black;
+  border-radius: 50%;
+  /*box-shadow: 2.5px 5px rgba(0, 0, 0, 0.3);*/
+  transition: transform 0.5s, box-shadow 0.2s;
+>>>>>>> e8fae503a85f1e6538b30698b7b94c5953c9b5a6
 }
 
 .indexIconosRedondos.logo {
@@ -148,7 +188,7 @@ header {
 
 .comollegaraa {
     text-align: center;
-    margin: 3em 3em;
+    margin: 3% 3%;
 }
 
 .direccion {
@@ -162,12 +202,12 @@ header {
 }
 
 .mapacomollegar {
-    width: 500px;
-    height: 400px;
+    width: 500%;
+    height: 400%;
 }
 
 .separarimg {
-    height: 10px;
+    height: 10%;
 }
 
 /* Seccion menu */
@@ -198,6 +238,7 @@ nav li a:hover {
 
 /* Seccion patrocinadores */
 
+<<<<<<< HEAD
 .patroHr {
     width: 60px;
 }
@@ -208,6 +249,18 @@ nav li a:hover {
     margin-right: auto;
     width: 25%;
     height: 80px;
+=======
+.patroHr{
+  width: 20%;
+}
+
+.patroTexto1{
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+  width: 25%;
+  height: 10%;
+>>>>>>> e8fae503a85f1e6538b30698b7b94c5953c9b5a6
 }
 
 .patroTexto2 {
@@ -218,15 +271,24 @@ nav li a:hover {
     height: 80px;
 }
 
+<<<<<<< HEAD
 .patrocinioPrincipal {
     width: 1300px;
     height: 279px;
     margin-left: auto;
     margin-right: auto;
-
-
+=======
+.patrocinioPrincipal{
+  width:99%;
+  padding-bottom: 5%;
+  margin-left:auto;
+  margin-right: auto;
 }
+>>>>>>> e8fae503a85f1e6538b30698b7b94c5953c9b5a6
 
+
+
+<<<<<<< HEAD
 .patrocinioPrincipaluno {
     margin-right: 2%;
     height: 130px;
@@ -255,9 +317,38 @@ nav li a:hover {
 
     margin-left: auto;
     margin-right: auto;
-
+=======
+.patrocinioPrincipaluno{
+  width: 30%;
+  display: inline-block;
 }
 
+.FotosPri{
+  width: 100%;
+  height: 100%
+}
+
+.patrocinioPrincipaldos{;
+  width: 30%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  display: inline-block;
+}
+
+.patrocinioPrincipaltres{
+  width: 30%;
+  display: inline-block;
+}
+
+.patrociniocol2{
+  width: 55%;
+  padding-bottom: 4%;
+  margin-left:auto;
+  margin-right:auto;
+>>>>>>> e8fae503a85f1e6538b30698b7b94c5953c9b5a6
+
+
+<<<<<<< HEAD
 .patrociniocoluno {
     margin-right: 3%;
     width: 150px;
@@ -291,6 +382,20 @@ nav li a:hover {
     width: 150px;
     height: 150px;
     display: inline-block;
+=======
+}
+
+.patrociniocol{
+  width:15%;
+  margin-left: 1.5%;
+  display: inline-block;
+}
+
+.faze{
+
+  width:25%;
+
+>>>>>>> e8fae503a85f1e6538b30698b7b94c5953c9b5a6
 }
 
 /* Seccion programa del evento */
@@ -350,11 +455,37 @@ ul li{
     margin-bottom: 2%;
 }
 
+<<<<<<< HEAD
 .nuestroequipo {
     width: 150px;
     height: 150px;
     margin-right: 25px;
     border-radius: 50%;
+=======
+/* Seccion quienes somos */
+.textosomos{
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-size: 17px;
+}
+.equipodesarrollo{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2%;
+}
+.nuestroequipo{
+  width: 12%;
+  height: 12%;
+  margin-right: 2%;
+  border-radius: 50%;
+>>>>>>> e8fae503a85f1e6538b30698b7b94c5953c9b5a6
 }
 
 /* Seccion instalaciones */
@@ -385,6 +516,7 @@ ul li{
 /* Seccion formulario de registro */
 
 /* Seccion registro de talleres */
+<<<<<<< HEAD
 .borderretall {
     display: inline-block;
 }
@@ -439,16 +571,71 @@ ul li{
 
 .abtextosretall {
     margin-top: 6%;
+=======
+.borderretall{
+  display: inline-block;
+}
+.arribaregistrotall{
+  text-align: center;
+}
+.comprarretall hr{
+  width: 60%;
+}
+.comprarretall{
+  margin-top: 5%;
+  text-align: center;
+}
+.arribaretall{
+  width: 400px;
+  height: 30px;
+  color: aliceblue;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid solid none solid;
+  border-color: black black black black;
+  background: #e31a1a;
+  font-weight: bold;
+  border-radius: 5px 5px 0px 0px;
+}
+.abajoretall{
+  width: 400px;
+  height: 80px;
+  border-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color:#e31a1a black black black;
+  border-radius:0px 0px 5px 5px;
+}
+.cuadrarcajasretall{
+  float: left;
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 3%;
+}
+.artextosretall{
+  margin-top: 1%;
+}
+.abtextosretall{
+  margin-top: 6%;
+>>>>>>> e8fae503a85f1e6538b30698b7b94c5953c9b5a6
 }
 
 
 /* Seccion testimonios */
 
+<<<<<<< HEAD
 .testimoniosGeneral {
     width: 70%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+=======
+.testimoniosGeneral{
+  width: 70%;
+  margin: 4% auto;
+>>>>>>> e8fae503a85f1e6538b30698b7b94c5953c9b5a6
 }
 
 .testimoniosTitulo {
@@ -503,41 +690,46 @@ footer {
     background: #e31a1a;
     color: white;
     text-align: center;
-    height: 50px;
+    height: 50%;
     bottom: 0;
     width: 100%;
-    position: relative;
+}
 
+@media only screen and (max-width: 800px){
+   footer{
+    background: yellow;
+   }
+   
 }
 
 .tituloLogo {
-    padding-left: 170px;
+    padding-left: 5%;
     margin-right: auto;
     display: inline-block;
 }
 
 .uemlogofooter {
-    width: 35px;
-    height: 35px;
-    margin-top: 7px;
-    padding-right: 10px;
+    width: 7%;
+    height: 7%;
+    margin-top: 2.2%;
+    padding-left: 30%;
     float: center;
 }
 
 .textofooter {
     float: right;
-    margin-top: -5px;
+    margin-top: 0%;
 }
 
 .redessociales {
     float: right;
     margin-right: auto;
-    margin-top: 7px;
-    padding-right: 20px;
+    margin-top: 0.5%;
+    padding-right: 1%;
 }
 
 .cuadrarimgfooter {
-    padding: 8px;
-    width: 22px;
-    height: 22px;
+    padding: 4%;
+    width: 12%;
+    height: 12%;
 }
