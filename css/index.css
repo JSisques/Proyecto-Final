@@ -199,7 +199,7 @@ nav li a:hover{
 /* Seccion patrocinadores */
 
 .patroHr{
-  width: 60px;
+  width: 20%;
 }
 
 .patroTexto1{
@@ -207,7 +207,7 @@ nav li a:hover{
   margin-left:auto;
   margin-right: auto;
   width: 25%;
-  height: 80px;
+  height: 10%;
 }
 .patroTexto2{
   text-align: center;
@@ -218,79 +218,57 @@ nav li a:hover{
 }
 
 .patrocinioPrincipal{
-  width: 1300px;
-  height:279px;
+  width:98%;
+  padding-bottom: 5%;
   margin-left:auto;
   margin-right: auto;
-
-
 }
 
+
+
 .patrocinioPrincipaluno{
-  margin-right: 2%;
-  height: 130px;
-  width: 400px;
+  height: 90%;
+  width: 30%;
   display: inline-block;
 }
 
+.FotosPri{
+  width: 100%;
+  height: 100%
+}
+
 .patrocinioPrincipaldos{
+  margin-left: 2%;
   margin-right: 2%;
-  height: 130px;
-  width: 400px;
+  width: 30%;
   display: inline-block;
 }
 
 .patrocinioPrincipaltres{
-  margin-right: 2%;
-  height: 112px;
-  width: 412px;
+  width: 35%;
   display: inline-block;
-
 }
 
 .patrociniocol2{
-  width: 910px;
-  height:300px;
-
+  width: 70%;
+  padding-bottom: 4%;
   margin-left:auto;
   margin-right:auto;
+  border:1px solid black;
 
 }
 
-.patrociniocoluno{
-  margin-right: 3%;
-  width: 150px;
-  height:150px;
+.patrociniocol{
+  width:15%;
+  margin-left: 1.5%;
   display: inline-block;
 }
 
-.patrociniocoldos{
-  margin-right: 3%;
-  width: 150px;
-  height:150px;
-  display: inline-block;
+.faze{
+  width:25%;
+
 }
 
-.patrociniocoltres{
-  margin-right: 3%;
-  width: 150px;
-  height:150px;
-  display: inline-block;
-}
-
-.patrociniocolcuatro{
-  margin-right: 3%;
-  width: 150px;
-  height:150px;
-  display: inline-block;
-}
-
-.patrociniocolcinco{
-  margin-right: 3%;
-  width: 150px;
-  height:150px;
-  display: inline-block;
-}
 
 /* Seccion programa del evento */
 .ProgramEventGeneral{
