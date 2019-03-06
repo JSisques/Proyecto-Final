@@ -1,5 +1,9 @@
 /* Color principal #e31a1a */
-
+/*
+* {
+ box-sizing: border-box;
+}
+*/
 body {
     background-color: #F6F3EE;
     margin: 0px;
@@ -41,16 +45,13 @@ header {
 
 .logoHeader {
     width: 20%;
-    height: 5em;
-    /*border: 2px solid black;*/
     text-align: center;
     float: right;
 
 }
 
 #headerLogoDerecha{
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin: 0% auto;
 }
 
 /* Seccion index */
