@@ -55,6 +55,19 @@ header {
 
 /* Seccion index */
 
+.indexVideo{
+  position: absolute;
+  z-index: -1000;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+  bottom: 0px;
+  right: 0px;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
 .circulosMenu{
   width: 45.4em;
   height: 45.4em;
@@ -84,6 +97,7 @@ header {
 }
 
 .indexIconosRedondos{
+  background-color: #F6F3EE;
   border: 2px solid black;
   border-radius: 50%;
   /*box-shadow: 2.5px 5px rgba(0, 0, 0, 0.3);*/
