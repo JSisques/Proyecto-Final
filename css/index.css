@@ -1,5 +1,9 @@
 /* Color principal #e31a1a */
-
+/*
+* {
+ box-sizing: border-box;
+}
+*/
 body {
     background-color: #F6F3EE;
     margin: 0px;
@@ -41,19 +45,29 @@ header {
 
 .logoHeader {
     width: 20%;
-    height: 5em;
-    /*border: 2px solid black;*/
     text-align: center;
     float: right;
 
 }
 
 #headerLogoDerecha{
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin: 0% auto;
 }
 
 /* Seccion index */
+
+.indexVideo{
+  position: absolute;
+  z-index: -1000;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+  bottom: 0px;
+  right: 0px;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
 
 .circulosMenu{
   width: 45.4em;
@@ -84,6 +98,7 @@ header {
 }
 
 .indexIconosRedondos{
+  background-color: #F6F3EE;
   border: 2px solid black;
   border-radius: 50%;
   /*box-shadow: 2.5px 5px rgba(0, 0, 0, 0.3);*/
