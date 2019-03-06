@@ -48,93 +48,93 @@ header {
 
 }
 
-#headerLogoDerecha{
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+#headerLogoDerecha {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 /* Seccion index */
 
-.circulosMenu{
-  width: 45.4em;
-  height: 45.4em;
-/*  border: 2px solid black; */
-  border-radius: 50%;
-  margin: auto;
-/*  background-color: red; */
-  position: relative;
+.circulosMenu {
+    width: 45.4em;
+    height: 45.4em;
+    /*  border: 2px solid black; */
+    border-radius: 50%;
+    margin: auto;
+    /*  background-color: red; */
+    position: relative;
 }
 
-.indexLineaHorizontal{
-  width: 100%;
-  height: 15.13em;
-  display: table;
+.indexLineaHorizontal {
+    width: 100%;
+    height: 15.13em;
+    display: table;
 }
 
-.indexIcono{
-  margin-top: 2em;
-  z-index: 1;
-  margin-left: 50px;
-  display: table-cell;
-  text-align: center;
+.indexIcono {
+    margin-top: 2em;
+    z-index: 1;
+    margin-left: 50px;
+    display: table-cell;
+    text-align: center;
 }
 
-.indexIcono.logo{
-  width: 350px;
+.indexIcono.logo {
+    width: 350px;
 }
 
-.indexIconosRedondos{
-  border: 2px solid black;
-  border-radius: 50%;
-  /*box-shadow: 2.5px 5px rgba(0, 0, 0, 0.3);*/
-  transition: transform 0.5s, box-shadow 0.2s;
+.indexIconosRedondos {
+    border: 2px solid black;
+    border-radius: 50%;
+    /*box-shadow: 2.5px 5px rgba(0, 0, 0, 0.3);*/
+    transition: transform 0.5s, box-shadow 0.2s;
 }
 
-.indexIconosRedondos.logo{
-  border: 2px none black;
+.indexIconosRedondos.logo {
+    border: 2px none black;
 }
 
-.indexIconosRedondos:hover{
-  box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.5), -2.5px -2.5px 10px rgba(0, 0, 0, 0.5);
-  transform: scale(1.2, 1.2);
+.indexIconosRedondos:hover {
+    box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.5), -2.5px -2.5px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.2, 1.2);
 }
 
-.indexIcono.superiorIzquierda{
-  vertical-align: bottom;
-  text-align: right;
+.indexIcono.superiorIzquierda {
+    vertical-align: bottom;
+    text-align: right;
 }
 
-.indexIcono.Izquierda{
-  text-align: right;
-  vertical-align: middle;
+.indexIcono.Izquierda {
+    text-align: right;
+    vertical-align: middle;
 }
 
-.indexIcono.inferiorIzquierda{
-  vertical-align: top;
-  text-align: right;
+.indexIcono.inferiorIzquierda {
+    vertical-align: top;
+    text-align: right;
 }
 
-.indexIcono.inferior{
-  padding-top: 4em;
+.indexIcono.inferior {
+    padding-top: 4em;
 }
 
-.indexIcono.inferiorDerecha{
-  vertical-align: top;
-  text-align: left;
+.indexIcono.inferiorDerecha {
+    vertical-align: top;
+    text-align: left;
 }
 
-.indexIcono.derecha{
-  text-align: left;
-  vertical-align: middle;
+.indexIcono.derecha {
+    text-align: left;
+    vertical-align: middle;
 }
 
-.indexIcono.superiorDerecha{
-  vertical-align: bottom;
-  text-align: left;
+.indexIcono.superiorDerecha {
+    vertical-align: bottom;
+    text-align: left;
 }
 
-.indexIcono.superior{
-  padding-top: 6em;
+.indexIcono.superior {
+    padding-top: 6em;
 }
 
 /*
@@ -172,193 +172,191 @@ header {
 
 /* Seccion menu */
 
-nav{
-  width: 15em;
-  text-align: center;
+nav {
+    width: 15em;
+    text-align: center;
 }
 
-nav li a{
-  background-color: darkred;
-  color: white;
-  text-decoration: none;
-  padding: 10px 5px;
-  display: block;
-  transition: background-color 1s, color 1s, width 2s;
+nav li a {
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+    display: block;
+    transition: background-color 1s, color 1s, width 2s;
 
 }
 
-nav li a:hover{
-  background-color: white;
-  color: darkred;
+nav li a:hover {
+    background-color: white;
+    color: darkred;
 }
 
-.navul{
-  list-style: none;
+.navul {
+    list-style: none;
 }
 
 /* Seccion patrocinadores */
 
-.patroHr{
-  width: 60px;
+.patroHr {
+    width: 60px;
 }
 
-.patroTexto1{
-  text-align: center;
-  margin-left:auto;
-  margin-right: auto;
-  width: 25%;
-  height: 80px;
-}
-.patroTexto2{
-  text-align: center;
-  margin-right: auto;
-  margin-left:auto;
-  width: 30%;
-  height: 80px;
+.patroTexto1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 80px;
 }
 
-.patrocinioPrincipal{
-  width: 1300px;
-  height:279px;
-  margin-left:auto;
-  margin-right: auto;
-
-
+.patroTexto2 {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    height: 80px;
 }
 
-.patrocinioPrincipaluno{
-  margin-right: 2%;
-  height: 130px;
-  width: 400px;
-  display: inline-block;
-}
+.patrocinioPrincipal {
+    width: 1300px;
+    height: 279px;
+    margin-left: auto;
+    margin-right: auto;
 
-.patrocinioPrincipaldos{
-  margin-right: 2%;
-  height: 130px;
-  width: 400px;
-  display: inline-block;
-}
-
-.patrocinioPrincipaltres{
-  margin-right: 2%;
-  height: 112px;
-  width: 412px;
-  display: inline-block;
 
 }
 
-.patrociniocol2{
-  width: 910px;
-  height:300px;
+.patrocinioPrincipaluno {
+    margin-right: 2%;
+    height: 130px;
+    width: 400px;
+    display: inline-block;
+}
 
-  margin-left:auto;
-  margin-right:auto;
+.patrocinioPrincipaldos {
+    margin-right: 2%;
+    height: 130px;
+    width: 400px;
+    display: inline-block;
+}
+
+.patrocinioPrincipaltres {
+    margin-right: 2%;
+    height: 112px;
+    width: 412px;
+    display: inline-block;
 
 }
 
-.patrociniocoluno{
-  margin-right: 3%;
-  width: 150px;
-  height:150px;
-  display: inline-block;
+.patrociniocol2 {
+    width: 910px;
+    height: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-.patrociniocoldos{
-  margin-right: 3%;
-  width: 150px;
-  height:150px;
-  display: inline-block;
+.patrociniocoluno {
+    margin-right: 3%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
 }
 
-.patrociniocoltres{
-  margin-right: 3%;
-  width: 150px;
-  height:150px;
-  display: inline-block;
+.patrociniocoldos {
+    margin-right: 3%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
 }
 
-.patrociniocolcuatro{
-  margin-right: 3%;
-  width: 150px;
-  height:150px;
-  display: inline-block;
+.patrociniocoltres {
+    margin-right: 3%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
 }
 
-.patrociniocolcinco{
-  margin-right: 3%;
-  width: 150px;
-  height:150px;
-  display: inline-block;
+.patrociniocolcuatro {
+    margin-right: 3%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.patrociniocolcinco {
+    margin-right: 3%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
 }
 
 /* Seccion programa del evento */
-.ProgramEventGeneral{
-  width: 28%;
-  height: 425px;
-  margin-left: 2%;
-  color: aliceblue;
-  font-weight: bold;
-  border:1px hide black;
+
+ul {
+    list-style-type: none;
+}
+ul li{
+    width: 50px;
+    height: 50px;
 }
 
-.dos{
-  width: 95%;
-  height: 290px;
-  border:1px hide black;
-}
-.ProgramaEvent{
-  width: 100%;
-  height: 200px;
-  border-radius: 5px;
-  border:2px solid black;
-  margin-top: 5%;
-}
-
-
-.TRES{
-  margin-top: 1.5%;
-  width: 30%;
-  height: 200px;
-  display: inline-block;
-}
-
-.segundoDivAbajo{
-  margin-left: 3%;
-}
-
-.ProgramaEvent p{
-    padding: 7px;
-    width: auto;
+.PrincipalPE ul{
     margin: auto;
-    background-color: red;
-    text-align: center;
 }
 
+.PrincipalPE {
+    margin: auto;
+    width: 500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.estilo li a {
+    background-color: #e31a1a;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+.estilo > li {
+    float: left;
+}
+
+
+/* Fin de Seccion Programa del evento */
 /* Seccion quienes somos */
-.textosomos{
-  width: 700px;
-  height: 250px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  font-size: 17px;
+.textosomos {
+    width: 700px;
+    height: 250px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-size: 17px;
 }
-.equipodesarrollo{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 750px;
-  height: 200px;
-  margin-bottom: 2%;
+
+.equipodesarrollo {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 200px;
+    margin-bottom: 2%;
 }
-.nuestroequipo{
-  width: 150px;
-  height: 150px;
-  margin-right: 25px;
-  border-radius: 50%;
+
+.nuestroequipo {
+    width: 150px;
+    height: 150px;
+    margin-right: 25px;
+    border-radius: 50%;
 }
+
 /* Seccion instalaciones */
 
 .generalInstalacion {
@@ -369,105 +367,113 @@ nav li a:hover{
 }
 
 .fotografia {
-  width: 300px;
-  height: 250px;
-  border: 2px solid black;
-  border-radius: 10px;
-  display: inline-block;
-  margin: 2em 1em;
-  transition: transform 1s, box-shadow 0.2s;
+    width: 300px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 2em 1em;
+    transition: transform 1s, box-shadow 0.2s;
 }
 
 .fotografia:hover {
-  transform: scale(1.2, 1.2);
-  box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.5), -2.5px -2.5px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.2, 1.2);
+    box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.5), -2.5px -2.5px 10px rgba(0, 0, 0, 0.5);
 
 }
 
 /* Seccion formulario de registro */
 
 /* Seccion registro de talleres */
-.borderretall{
-  display: inline-block;
+.borderretall {
+    display: inline-block;
 }
-.arribaregistrotall{
-  text-align: center;
+
+.arribaregistrotall {
+    text-align: center;
 }
-.comprarretall hr{
-  width: 60%;
+
+.comprarretall hr {
+    width: 60%;
 }
-.comprarretall{
-  margin-top: 5%;
-  text-align: center;
+
+.comprarretall {
+    margin-top: 5%;
+    text-align: center;
 }
-.arribaretall{
-  width: 400px;
-  height: 30px;
-  color: aliceblue;
-  border-width: 1px 1px 1px 1px;
-  border-style: solid solid none solid;
-  border-color: black black black black;
-  background: #e31a1a;
-  font-weight: bold;
-  border-radius: 5px 5px 0px 0px;
+
+.arribaretall {
+    width: 400px;
+    height: 30px;
+    color: aliceblue;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid solid none solid;
+    border-color: black black black black;
+    background: #e31a1a;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
 }
-.abajoretall{
-  width: 400px;
-  height: 80px;
-  border-width: 1px;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-right-style: solid;
-  border-left-style: solid;
-  border-color:#e31a1a black black black;
-  border-radius:0px 0px 5px 5px;
+
+.abajoretall {
+    width: 400px;
+    height: 80px;
+    border-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: #e31a1a black black black;
+    border-radius: 0px 0px 5px 5px;
 }
-.cuadrarcajasretall{
-  float: left;
-  margin-top: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+
+.cuadrarcajasretall {
+    float: left;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
-.artextosretall{
-  margin-top: 1%;
+
+.artextosretall {
+    margin-top: 1%;
 }
-.abtextosretall{
-  margin-top: 6%;
+
+.abtextosretall {
+    margin-top: 6%;
 }
 
 
 /* Seccion testimonios */
 
-.testimoniosGeneral{
-  width: 70%;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+.testimoniosGeneral {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.testimoniosTitulo{
-  text-align: left;
+.testimoniosTitulo {
+    text-align: left;
 }
 
-.testimoniosParrafo{
-  text-align: justify;
+.testimoniosParrafo {
+    text-align: justify;
 }
 
-.testimoniosNombre{
-  text-align: right;
+.testimoniosNombre {
+    text-align: right;
 }
 
-.testimoniosOrganizacion{
-  text-align: right;
+.testimoniosOrganizacion {
+    text-align: right;
 }
 
 /* Seccion servicios */
 
-.serviciosCompleto{
-  width: 100%;
-  margin: auto;
-  margin-top: 1%;
-  text-align: center;
+.serviciosCompleto {
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
 }
 
 .servicios {
