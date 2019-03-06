@@ -162,7 +162,7 @@ header {
 
 .comollegaraa {
     text-align: center;
-    margin: 3em 3em;
+    margin: 3% 3%;
 }
 
 .direccion {
@@ -176,12 +176,12 @@ header {
 }
 
 .mapacomollegar {
-    width: 500px;
-    height: 400px;
+    width: 500%;
+    height: 400%;
 }
 
 .separarimg {
-    height: 10px;
+    height: 10%;
 }
 
 /* Seccion menu */
@@ -510,7 +510,7 @@ footer {
     background: #e31a1a;
     color: white;
     text-align: center;
-    height: 50px;
+    height: 50%;
     bottom: 0;
     width: 100%;
     position: relative;
@@ -518,33 +518,33 @@ footer {
 }
 
 .tituloLogo {
-    padding-left: 170px;
+    padding-left: 5%;
     margin-right: auto;
     display: inline-block;
 }
 
 .uemlogofooter {
-    width: 35px;
-    height: 35px;
-    margin-top: 7px;
-    padding-right: 10px;
+    width: 7%;
+    height: 7%;
+    margin-top: 2.2%;
+    padding-left: 30%;
     float: center;
 }
 
 .textofooter {
     float: right;
-    margin-top: -5px;
+    margin-top: 0%;
 }
 
 .redessociales {
     float: right;
     margin-right: auto;
-    margin-top: 7px;
-    padding-right: 20px;
+    margin-top: 0.5%;
+    padding-right: 1%;
 }
 
 .cuadrarimgfooter {
-    padding: 8px;
-    width: 22px;
-    height: 22px;
+    padding: 4%;
+    width: 12%;
+    height: 12%;
 }
