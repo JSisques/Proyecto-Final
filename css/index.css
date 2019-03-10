@@ -286,29 +286,97 @@ header {
 /* Seccion menu */
 
 nav{
-  width: 15em;
   text-align: center;
+  position: relative;
+  padding-top: -20%;
+  width: 0px;
+
 }
 
 nav li a{
   background-color: darkred;
   color: white;
   text-decoration: none;
-  padding: 10px 5px;
+  padding: 20px 20px;
   display: block;
-  transition: background-color 1s, color 1s, width 2s;
+}
 
+.MenuNada:hover{
+ background-color: darkred;
+  color: white;
+ 
 }
 
 nav li a:hover{
   background-color: white;
   color: darkred;
 }
-
+nav ul{
+margin: 0;
+padding:0;
+display: flex;
+}
 .navul{
   list-style: none;
 }
 
+#BotonMenu{
+  display: none;
+}
+
+header label{
+  display: none;
+  width: 4%;
+  padding: 1%;
+  
+}
+
+header label:hover{
+  cursor: pointer;
+  background: rgba(0,0,0,0.3);
+}
+
+@media(max-width: 2080px){
+
+  header label{
+    z-index: 10;
+    position: absolute;
+    display: block;
+    z-index: 101;
+  }
+  .MenuNada{
+   padding-top: 60px;
+    
+  }
+
+  nav{
+    margin-left: -80px; 
+    position: absolute;
+    transition: width 1s;
+    z-index: 100;
+
+
+  }
+
+  nav li a{
+    margin-left: -88px;
+    transition: margin 3s;
+    transition: background-color 1s, color 1s;
+  }
+
+
+  nav ul{
+    flex-direction:column;
+  }
+
+  #BotonMenu:checked ~ nav{
+    width: 300px;
+    margin: 0;
+  }
+
+   #BotonMenu:checked ~ nav li a{
+    margin: 0;
+  }
 /* Seccion patrocinadores */
 
 .patroHr{
