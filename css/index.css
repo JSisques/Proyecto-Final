@@ -622,22 +622,24 @@ footer {
 }
 
 .tituloLogo {
-    padding-left: 5%;
-    margin-right: auto;
+    width: 40%;
     display: inline-block;
+    margin-right: auto;
+    margin-left: 25%;
 }
 
 .uemlogofooter {
     width: 7%;
     height: 7%;
     margin-top: 2.2%;
-    padding-left: 30%;
-    float: center;
+    float: left;
+    margin-right: 1%;
 }
 
 .textofooter {
-    float: right;
-    margin-top: 0%;
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 1%;
 }
 
 .redessociales {
