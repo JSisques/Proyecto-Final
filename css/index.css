@@ -326,14 +326,17 @@ display: flex;
 
 header label{
   display: none;
-  width: 4%;
-  padding: 1%;
+  width: 2.5%;
+  padding: 1.5%;
+}
 
+header label img{
+  width: 90%; 
 }
 
 header label:hover{
   cursor: pointer;
-  background: rgba(0,0,0,0.3);
+
 }
 
 @media(max-width: 2080px){
