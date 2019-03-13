@@ -713,54 +713,88 @@ table tr td{
 
 /* Seccion footer */
 footer {
-    background: #e31a1a;
-    color: white;
-    text-align: center;
-    height: 50%;
-    bottom: 0;
-    width: 100%;
+  background: #e31a1a;
+  color: white;
+  text-align: center;
+  height: 50%;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40vw 40vw 20vw;
+  grid-template-rows: 1fr;
 }
 .footerAnclado{
   position: fixed;
   height: 8.25%;
 }
-@media only screen and (max-width: 800px){
-   footer{
-    background: yellow;
-   }
 
-}
 
 .tituloLogo {
-    width: 40%;
-    display: inline-block;
-    margin-right: auto;
-    margin-left: 25%;
+    
+  grid-row: 1;
+  grid-column: 2;
+  min-width: 20%;
+  min-height: 20%;
+
 }
 
 .uemlogofooter {
-    width: 7%;
-    height: 7%;
-    margin-top: 2.2%;
-    float: left;
-    margin-right: 1%;
+  width: 6%;
+  height: 50%;
+  min-width: 5.8%;
+  max-height: 50%;
+  margin-top: 2.4%;
+  float: left;
+  padding-right: 2%;
 }
 
 .textofooter {
-    float: left;
-    margin-top: 0.5%;
-    margin-left: 1%;
+ float: left;
+   
 }
 
 .redessociales {
-    float: right;
-    margin-right: auto;
-    margin-top: 0.5%;
-    padding-right: 1%;
+  margin-left: auto;
+  grid-row: 1;
+  grid-column: 3;
 }
 
 .cuadrarimgfooter {
-    padding: 4%;
-    width: 12%;
-    height: 12%;
+  padding: 4%;
+  width: 12%;
+  height: 50%;
+}
+
+@media only screen and (max-width: 1100px){
+  .uemlogofooter {
+  width: 7%;
+  height: 50%;
+  min-width: 6%;
+  max-height: 50%;
+  margin-top: 3.5%;
+  float: left;
+  padding-right: 2%;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  footer {
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 1fr;
+
+  }
+  .redessociales {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+    max-height: 100%;
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .tituloLogo {
+    display: none;
+  }
 }
