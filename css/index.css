@@ -826,9 +826,14 @@ input:invalid{
 
 .servicioheader {
     background-color: red;
-    padding: 7px;
+    padding: 2%;
     width: auto;
     margin: auto;
+}
+.serviciocentro{
+    color: black;
+    text-align: center;
+    padding: 2% 2% 2% 2%;
 }
 
 /* Seccion footer */
