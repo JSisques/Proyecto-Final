@@ -40,36 +40,51 @@
     >
     <!--******-->
 
+
+              <h1 class="formH">Escoge tu entrada</h1> 
+                    <hr class="patroHr">
+
     <div class="FormGeneral"> 
-          <form>
+
+          <form method="post" action="cuentatest69@hotmail.com">
           <div clas="formIz">
 
-            
-            <label>Nombre</label><br><input type="text" name="Nombre" required><br>
+            <form>
+            <label>Nombre</label><br><input type="text" name="Nombre" ><br>
 
-            <label>Primer apellido</label><br><input type="text" name="apellido"><br>
+            <label>Primer apellido</label><br><input type="text" name="Apellido1" ><br>
 
-            <label>Segundo apellido</label><br><input type="text" name="apellido"><br>
+            <label>Segundo apellido</label><br><input type="text" name="Apellido2" ><br>
 
-            <label>Email</label><br><input type="email" name="apellido"><br>
+            <label>Email</label><br><input type="email" name="apellido" required><br>
 
-             <label>Numero de telefono</label><br><input type="tel" name="apellido" pattern="[0-9]" maxlength="9"><br>
+             <label>Numero de telefono </label><br><input type="tel" name="apellido" pattern="[^A-Z][^a-z][0-9]{1,9}" minlength="9" maxlength="9" required><br>
               
-
+           </form>
           </div>
-          
-
+          <form>
+           
           <div clas="formDech">
             
+            <label>Entrada estudiante 25 €<br><input type="number" name="Eestudiante" min="0" step="1"></label><br>
+              <label>Entrada Profesional 50 €<br><input type="number" name="Eprofesional" min="0" step="1"></label><br>
+              <label>Entrada V.I.P 200 €<br><input type="number" name="EVIP" min="0" step="1"></label><br>
+               <label>Solo ponencia 15 €<br><input type="number" name="EVIP" min="0" step="1"></label><br>
 
+               <label>Solo taller 15 €<br><input type="number" name="EVIP" min="0" step="1"></label><br>
+
+
+
+          </form>
           </div>
-          
+            <input class="FormAnchoSubmit" type="submit" name="Envia" value="Enviar">
           </form>
 
         </div>
 
 
-  		<footer >
+
+  		<footer class="footerAnclado">
 		<!--Imagen del logo y Titulo del footer-->
 		<div class="tituloLogo">
 			<img src="img/uemlogo.png" class="uemlogofooter">

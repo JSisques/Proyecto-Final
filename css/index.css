@@ -381,6 +381,52 @@ header label:hover{
    #BotonMenu:checked ~ nav li a{
     margin: 0;
   }
+}
+
+@media (max-width: 700px) {
+    header label{
+    z-index: 10;
+    position: absolute;
+    display: block;
+    z-index: 101;
+  }
+  .MenuNada{
+   padding-top: 10px;
+
+  }
+
+  nav{
+    margin-left: -80px;
+    position: absolute;
+    transition: width 1s;
+    z-index: 200px;
+
+
+  }
+
+  nav li a{
+    margin-left: -88px;
+    transition: margin 3s;
+    transition: background-color 1s, color 1s;
+    font-size: 8px;
+  }
+
+
+  nav ul{
+    flex-direction:column;
+  }
+
+  #BotonMenu:checked ~ nav{
+    width: 100px;
+    margin: 0;
+  }
+
+   #BotonMenu:checked ~ nav li a{
+    margin: 0;
+  }
+ 
+}
+
 /* Seccion patrocinadores */
 
 .patroHr{
@@ -607,33 +653,61 @@ table tr td{
 
 /* Seccion formulario de registro */
 .FormGeneral{
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
-  border:1px solid black;
+  
   display: grid;
   grid-template-columns: 45vw 45vw;
   grid-template-rows: 1fr;
-  
- 
   width: 90%;
   height: 473px;
 }
+.formH{
+  text-align: center;
+}
+
 
 .formIz{
-  border:1px solid black;
   grid-column: 1;
-  padding:10px;
+}
+.formDech{
+  grid-column: 3;
   
-  
+}
+
+.formDech label{
+
 }
 
 form{
 text-align: center;
+
 }
 
 input{
-  margin-bottom:3%;
+  margin-top: 2%;
+  margin-bottom:5%;
+  border-radius: 5%;
 }
+
+/*input:valid{
+  background: #90EE90;
+}*/
+input:invalid{
+  background: #CD5C5C;
+}
+
+.FormAnchoSubmit{
+  margin-right: auto;
+  margin-left: auto;
+  width: 20%;
+}
+
+
+
+
+
 
 
 
